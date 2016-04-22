@@ -3,8 +3,8 @@
 
 schema:
   schema_id: haha_pinyin
-  name: 哈哈拼音・二廣專用
-  version: "2016.02.20"
+  name: 哈哈拼音・何喝专享
+  version: "2016.04.22"
   author:
     - 佛振 <chen.sst@gmail.com>
     - hitigon <hitigon@gmail.com>
@@ -15,7 +15,7 @@ schema:
     拼音碼表源於地球拼音（terra_pinyin）
     可以在中文输入状态下同时输入英文。
     Meow! 基於貓老師@_ym的貓顏文字詞庫
-    獻給CH！
+    獻給CHemperor！
   dependencies:
     - terra_pinyin
     - luna_pinyin
