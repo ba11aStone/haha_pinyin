@@ -1,14 +1,15 @@
-## 漢語拼音定製輸入方案，獻給 CHemperor
+## 汉语拼音定制输入方案，献给CHemperor！
 
-基於[地球拼音](https://github.com/lotem/brise/blob/master/preset/terra_pinyin.schema.yaml)、[明月拼音](https://github.com/rime/brise/blob/master/preset/luna_pinyin.schema.yaml)、[明月拼音·筆畫輔助碼](https://github.com/rime-aca/schemata/blob/master/luna_pinyin_stroke/luna_pinyin_stroke.schema.yaml)及[中州韻之貓顏文字](https://github.com/hitigon/meow-emoji-rime/blob/master/meow_emoji.schema.yaml)製作，並爲 CH 私人定製！
+基于[地球拼音](https://github.com/lotem/brise/blob/master/preset/terra_pinyin.schema.yaml)、[明月拼音](https://github.com/rime/brise/blob/master/preset/luna_pinyin.schema.yaml)、[明月拼音·筆畫輔助碼](https://github.com/rime-aca/schemata/blob/master/luna_pinyin_stroke/luna_pinyin_stroke.schema.yaml)及[中州韻之貓顏文字](https://github.com/hitigon/meow-emoji-rime/blob/master/meow_emoji.schema.yaml)制作，并为CH私人定制！
 
-#### 定製方案的使用（目前僅適用於小狼毫--RIME for Window$）
-  1. [點我下載](https://github.com/erstern/myRIMEschemas/archive/master.zip)，下載並解壓，進入文件夾「haha_pinyin」。
-  2. 找到開始菜單中 RIME 的「用戶文件夾」，打開並把文件夾「haha_pinyin」中的文件全部複製進去。
-  3. 從開始菜單找到 RIME 的「重新部署」選項，點擊，等待數秒。
-  4. 按「Ctrl+`」，選擇「哈哈拼音・二廣專用」即可開始使用。
+#### 定制方案的安装启用（仅适用于rime-gits-20151010-alpha -- 即新版RIME for Window$，Win7及更高版本有效。）
+  1. [点我下载](http://pan.baidu.com/s/1i3GW9LV) 新版RIME安装包，解压到某一硬盘分区的根目录（其他路径也可以，只是文件夹名最好不要有空格），进入rime-gits-20151010-alpha文件夹，以管理员权限运行「install」，接下来的提示均允许，之后「Ctrl + Shift」启动一次RIME。
+  2. [点我下载](http://git.oschina.net/erstern/haha_pinyin/repository/archive/master)，[或者是我](https://github.com/erstern/haha_pinyin/archive/master.zip) 下载哈哈拼音配置文件，解压。
+  3. 进入「C:\Users\Administrator\AppData\Roaming\Google\Google Input Tools\Rime」,把刚才解压的配置文件全部复制进来。注意「Users」可能为中文「用户」，「AppData」可能为隐藏文件夹。
+  4. 点击「Ctrl + Alt + Delete」启动任务管理器，kill掉两个「GoogleInputTools」开头的进程（kill之后会自动活过来，点击一次「结束进程」即可），再次「Ctrl + Shift」启动RIME等待数秒，新配置生效；或重启计算机生效。
+  5. 按「Ctrl+`」，选择「哈哈拼音・何喝专享」即可开始使用。
 
-下次只要（在中文模式下）直接輸入「vhaha」就能看到本方案最新版本地址，同樣方法下載並重新部署即可。
+下次只要（在中文模式下）直接輸入「vhaha」就能看到本方案最新版本地址，同樣方法下載並使配置生效即可。
 
 #### 聲調
 可以輸入符號 `- / < \` 作爲漢語拼音方案四種聲調，如輸入`a`，則字母分別轉寫爲``ā á â à``，其餘類推。
