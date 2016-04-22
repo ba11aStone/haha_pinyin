@@ -1,0 +1,9 @@
+patch:
+  schema_list:
+    - schema: haha_pinyin
+    - schema: terra_pinyin
+    - schema: easy_en
+    - schema: luna_pinyin_stroke
+  switcher:
+    hotkeys:
+      - Control+grave

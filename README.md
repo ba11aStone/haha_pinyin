@@ -4,7 +4,7 @@
 
 #### 定制方案的安装启用（仅适用于rime-gits-20151010-alpha -- 即新版RIME for Window$，Win7及更高版本有效。）
   1. [点我下载](http://pan.baidu.com/s/1i3GW9LV) 新版RIME安装包，解压到某一硬盘分区的根目录（其他路径也可以，只是文件夹名最好不要有空格），进入rime-gits-20151010-alpha文件夹，以管理员权限运行「install」，接下来的提示均允许，之后「Ctrl + Shift」启动一次RIME。
-  2. [点我下载](http://git.oschina.net/erstern/haha_pinyin/repository/archive/master)，[或者是我](https://github.com/erstern/haha_pinyin/archive/master.zip) 下载哈哈拼音配置文件，解压。
+  2. [点我下载](http://git.oschina.net/erstern/haha_pinyin/repository/archive/master)，[或者是我](https://github.com/erstern/haha_pinyin/archive/master.zip) 下载哈哈拼音配置文件，解压。（两个下载地址分别为github与git.oschina，同步推送。）
   3. 进入「C:\Users\Administrator\AppData\Roaming\Google\Google Input Tools\Rime」,把刚才解压的配置文件全部复制进来。注意「Users」可能为中文「用户」，「AppData」可能为隐藏文件夹。
   4. 点击「Ctrl + Alt + Delete」启动任务管理器，kill掉两个「GoogleInputTools」开头的进程（kill之后会自动活过来，点击一次「结束进程」即可），再次「Ctrl + Shift」启动RIME等待数秒，新配置生效；或重启计算机生效。
   5. 按「Ctrl+`」，选择「哈哈拼音・何喝专享」即可开始使用。
