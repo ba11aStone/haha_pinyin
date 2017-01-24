@@ -23,7 +23,7 @@
 
 ---
 name: terra_pinyin
-version: "2016.07.10"
+version: "2017.01.07"
 sort: by_weight
 use_preset_vocabulary: true
 max_phrase_length: 7
@@ -16093,8 +16093,8 @@ min_phrase_weight: 100
 殴	ou1
 段	duan4
 殶	zhu4
-殷	yan1	1%
-殷	yin1	98%
+殷	yan1	30%
+殷	yin1
 殷	yin3	1%
 殸	qing4
 殹	yi4
@@ -99016,6 +99016,7 @@ min_phrase_weight: 100
 鼓膜	gu3 mo4
 鼓膜炎	gu3 mo4 yan2
 鼓興	gu3 xing4
+鼓角	gu3 jiao3
 鼓角	gu3 jue2
 鼓鈸	gu3 ba2
 鼓點子	gu3 dian3 zi5
