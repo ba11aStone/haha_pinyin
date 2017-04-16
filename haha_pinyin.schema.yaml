@@ -60,6 +60,7 @@ engine:
   translators:
     - punct_translator
     - script_translator
+    - table_translator@custom_phrase
     - "script_translator@luna_pinyin"
     - "script_translator@pinyin_lookup"
     - "script_translator@luna_pinyin_stroke"
@@ -204,6 +205,14 @@ pinyin_lookup:
 #  tips: 【漢拼五筆畫反查】
 #  closing_tips: 【哈哈】
 #  initial_quality: 0.25
+
+custom_phrase:
+  dictionary: ""
+  user_dict: custom_phrase
+  db_class: tabledb
+  enable_sentence: false
+  enable_completion: false
+  initial_quality: 1
 
 #english:
 #  dictionary: easy_en
